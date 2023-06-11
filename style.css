@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-color: #131313;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue';
+  color: #444;
+  font-size: 100px;
+  letter-spacing: 4px;
+  transition: 0.3s;
+  animation: shadow 2s infinite;
+}
+
+@keyframes shadow {
+  0% {
+    color: #fff;
+    text-shadow: 0 0 10px #bfbfbf,
+                 0 0 30px #bfbfbf,
+                 0 0 50px #bfbfbf,
+                 0 0 80px #bfbfbf,
+                 0 0 100px #bfbfbf;
+  }
+  
+  50% {
+    color: #444;
+    text-shadow: none;
+  }
+  
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #bfbfbf,
+                 0 0 30px #bfbfbf,
+                 0 0 50px #bfbfbf,
+                 0 0 80px #bfbfbf,
+                 0 0 100px #bfbfbf;
+  }
+}
